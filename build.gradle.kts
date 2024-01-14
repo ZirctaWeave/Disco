@@ -13,12 +13,11 @@ minecraft.version("1.8.9")
 
 repositories {
     maven("https://jitpack.io")
-    maven("https://repo.spongepowered.org/maven/")
 }
 
 dependencies {
     compileOnly("com.github.weave-mc:weave-loader:v0.2.5")
-    compileOnly("org.spongepowered:mixin:0.8.5")
+    implementation("org.java-websocket:Java-WebSocket:1.5.4")
 }
 
 tasks.compileJava {
